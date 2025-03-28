@@ -42,7 +42,7 @@ export default function HeroSection() {
       {/* Background image slideshow */}
 
       <div className="absolute inset-0 w-full h-full">
-          <AnimatePresence mode="wait">
+          <AnimatePresence>
             <motion.div
               key={currentImageIndex}
               initial={{ opacity: 0 }}
